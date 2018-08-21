@@ -19,6 +19,7 @@ default - example config nginx /etc/nginx/sites-available/default
 ### Install
 
 git clone https://github.com/77ph/load-balancer.git
+
 cd load-balancer.git
 
 install LEMP: bash install.sh or install LEMP how do you want.
