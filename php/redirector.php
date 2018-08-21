@@ -88,11 +88,11 @@ $footballServers = array();
 
 /* Put own server here! 192.168.1.10 only example!! */
 
-$server = new NimbleServer( '192.168.1.10' ); // IPv4 of nimble server, replace to own!
+$server = new NimbleServer( '192.168.1.10' ); // IPv4 of nimble edge server, replace to own!
 $server->setManagementPassword( '123456' ); // managment token, replace to own!
 $balancer->addServer( $server );
 
-$server = new NimbleServer( '10.10.10.2' ); // the next ... etc
+$server = new NimbleServer( '10.10.10.2' ); // the next edge ... etc
 $server->setManagementPassword( '123456' ); // replace to own
 $balancer->addServer( $server );
 
