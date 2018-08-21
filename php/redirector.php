@@ -77,7 +77,6 @@ $balancer->setWhenAllServersNotResponding( 'throw' );
 $memcachedServer = $balancer->setMemcachedServer( 'localhost' );
 $memcachedServer->setExpirationTime( 5 );
 
-$footballServers = array();
 /*
   Create NimbleServer instance and add it to the balancer. Each server is specified
   by IP address. Management token (password) is optional parameter, but it's strongly
