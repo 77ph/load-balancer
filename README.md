@@ -1,4 +1,4 @@
-h1 Load balancing
+Load balancing
 
 The reference code in this repository demostrates possible implementation of load balancing techniques described in the following article: http://blog.wmspanel.com/2015/02/hls-dash-media-streaming-load-balancing.html
 
