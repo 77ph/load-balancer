@@ -4,9 +4,9 @@ The reference code in this repository demostrates possible implementation of loa
 
 This code may be applied to perform balancing of any streaming like HLS, MPEG-DASH, SLDP, Icecast etc.
 
-Requirement: standalone server (vps or bare metal), Ununtu >=16.x
+Requirement: standalone server (vps or bare metal), Ununtu >=12.x
 
-The install.sh script for install LEMP stack.
+The install.sh script for install LEMP stack (for Ubuntu 16.x).
 
 default - example config nginx /etc/nginx/sites-available/default
 
