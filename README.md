@@ -26,7 +26,7 @@ $ cd load-balancer.git
 
 install LEMP: bash install.sh or install LEMP how do you want.
 
-Move "php" scripts to web root. For example to /var/www/html/: cp ./php/* /var/www/html
+Move "php" scripts to web root. For example to /var/www/html/: mv ./php/* /var/www/html/
 
 Edit redirector.php and replace IPv4 to actual own: nano /var/www/html/redirector.php
 
