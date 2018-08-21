@@ -14,6 +14,8 @@ default - example config nginx /etc/nginx/sites-available/default
 
 Move "php" scripts to web root. For example to /var/www/html/
 
+Edit redirector.php and replace IPv4 to actual own.
+
 The redirector.php script shows its proper usage.
 
 Example: 
