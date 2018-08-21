@@ -4,13 +4,15 @@ The reference code in this repository demostrates possible implementation of loa
 
 This code may be applied to perform balancing of any streaming like HLS, MPEG-DASH, SLDP, Icecast etc.
 
-Requirement: standalone server (vps or bare metal), Ununtu >=12.x
+Requirement: standalone server (vps or bare metal), OS Ubuntu >=12.x
 
 The install.sh script for install LEMP stack (for Ubuntu 16.x).
 
 default - example config nginx /etc/nginx/sites-available/default
 
-"php" directory has set of PHP classes to perform load balancing based on current amount of bandwidth and connections at all available Nimble Streamer instances. 
+"php" directory has set of PHP classes to perform load balancing based on current amount of bandwidth and connections at all available Nimble Streamer instances.
+
+Move "php" scripts to web root. For example to /var/www/html/
 
 The redirector.php script shows its proper usage.
 
