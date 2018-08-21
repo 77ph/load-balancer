@@ -24,7 +24,7 @@ $ git clone https://github.com/77ph/load-balancer.git
 $ cd load-balancer.git
 ```
 
-install LEMP: bash install.sh or install LEMP how do you want.
+Install LEMP: bash install.sh or install LEMP how do you want. Configure nginx + fastcgi php. 
 
 Move "php" scripts to web root. For example to /var/www/html/: mv ./php/* /var/www/html/
 
