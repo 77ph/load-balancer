@@ -86,14 +86,14 @@ $footballServers = array();
   need to specify it explicitly. Otherwise, please use setManagementPassword interface.
 */
 
-/* Put own server here! */
+/* Put own server here! 192.168.1.10 only example!! */
 
-$server = new NimbleServer( '35.197.236.129' ); // IPv4 of nimble server
-$server->setManagementPassword( '123456L1' ); // managment token
+$server = new NimbleServer( '192.168.1.10' ); // IPv4 of nimble server
+$server->setManagementPassword( '123456' ); // managment token
 $balancer->addServer( $server );
 
-$server = new NimbleServer( '46.101.106.116' );
-$server->setManagementPassword( '123456L1' );
+$server = new NimbleServer( '10.10.10.2' ); // the next ... etc
+$server->setManagementPassword( '123456' );
 $balancer->addServer( $server );
 
 
